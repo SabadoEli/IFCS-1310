@@ -1,0 +1,23 @@
+/* CSS DEMO Stylesheet */
+
+/*  ---------------Box Sizing-----------------  */
+
+html {
+    box-sizing: border-box;
+  }
+  *,
+  *:before,
+  *:after {
+    box-sizing: inherit;
+  }
+
+/*----------------Global Styles-----------------*/
+
+body{
+    background-color: cadetblue;
+    font-family: "Century Gothic", CenturyGothic, AppleGothic, sans-serif;
+}
+
+header.primary{
+    background: red;
+}
