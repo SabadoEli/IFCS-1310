@@ -105,6 +105,9 @@ nav.primary ul li a:hover{
   flex-direction:row;
   justify-content:space-around;
   gap:2rem;
+  border-top: 1px dotted #ccc;
+  border-bottom: 1px dotted #ccc;
+  padding: 2.4rem 0;
 }
 
 #content article.post{
@@ -123,6 +126,37 @@ time.post-date, figcaption{
   margin:0;
 }
 
+/*---------------Side Bar----------------*/
+
+aside .container{
+  display:flex;
+  flex-direction:row;
+  justify-content:space-around;
+  gap:60px;  
+  }
+
+ 
+  aside a:last-of-type{
+    color:#ffffff;
+    display:block;
+    margin-top:20px;
+    text-align:right;
+  }
+
+  aside .widget footer{
+    display:none;   
+  }
+
+/*-----------Footer-----------------*/
+
+footer#colophon{
+  background-color: #7AE5BF;
+  padding:10px;
+  text-align:center;
+  color: #ffffff;
+  font-size: 1.3rem;
+}
+
 /* --------- Media Queries ----------- */
 
 @media screen and (max-width:600px){
@@ -136,5 +170,18 @@ time.post-date, figcaption{
     nav.primary ul a{
       display:block;
     }
+    aside .container{
+      flex-direction: column;
+      gap:60px;
+    }
+
+    
     
   }
+
+  @media screen and (max-width:450px){
+    content{
+      flex-direction: column;
+    }
+  }
+  
