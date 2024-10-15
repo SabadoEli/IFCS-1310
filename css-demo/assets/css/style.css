@@ -148,6 +148,9 @@ time.post-date, figcaption{
 
 #content article.post figure{
   margin:0;
+}
+  
+
 
   #practice h2{
     color: #3b638b;
@@ -159,7 +162,7 @@ time.post-date, figcaption{
     transition: .4s;
    }
 
-   #pratice a:hover{
+   #practice a:hover{
     text-decoration:none;
    }
 
@@ -203,6 +206,46 @@ time.post-date, figcaption{
     text-align:right;
    }
 
+   #practice ol{
+    list-style-type:lower-alpha;
+  }
+  
+  #practice ul{
+    list-style-type:square;
+  }
+  
+  #practice ul li ul{
+    list-style-type:disc;
+  }
+  
+  #practice dt{
+    font-weight:bold;
+    
+  }
+  
+  #practice dd{
+    margin:0;
+  }
+
+  dd + dt{
+    margin-top:20px;
+  }
+
+  blockquote{
+    border: 4px double #ccc;
+    padding: 20px 40px;
+    background-color: #7AE5BF;
+    color: #ffffff;
+    border-radius: 30px 0;
+    margin: 40px 80px;
+    line-height: 1.4;
+  }
+  cite{
+    display:block;
+    text-align:right;
+    font-size:.7rem;
+    margin-top:1rem;
+  }
 
 
 /*---------------Side Bar----------------*/
@@ -259,7 +302,7 @@ footer#colophon{
   }
 
   @media screen and (max-width:450px){
-    content{
+    #content{
       flex-direction: column;
     }
   }
