@@ -4,39 +4,39 @@
     box-sizing: border-box;
 }
 
-/* Body styling with a 50px margin from the edge */
+
 body {
     font-family: Arial, sans-serif;
-    margin: 0; /* Remove default margin from body */
-    padding: 0; /* Remove default padding */
-    background-color: #2f2f2f; /* Dark gray background */
-    opacity: 0.95; /* Optional opacity adjustment */
+    margin: 0; 
+    padding: 0; 
+    background-color: #2f2f2f; 
+    opacity: 0.95; 
     background: 
         linear-gradient(135deg, #555555 25%, transparent 25%) -10px 0/ 20px 20px, /* Diagonal line with darker gray */
         linear-gradient(225deg, #333333 25%, transparent 25%) -10px 0/ 20px 20px, /* Diagonal line with even darker gray */
         linear-gradient(315deg, #444444 25%, transparent 25%) 0px 0/ 20px 20px, /* Another diagonal with medium gray */
         linear-gradient(45deg, #666666 25%, #2f2f2f 25%) 0px 0/ 20px 20px; /* Diagonal lines forming a checkerboard pattern */
-    color: white; /* White text color */
-    margin: 50px; /* Larger 50px margin from the edges of the page */
-    outline: 5px solid rgba(255, 255, 255, 0.3); /* Light outline to mark the box */
-    padding: 0; /* No padding on the body */
+    color: white; 
+    margin: 50px; 
+    outline: 5px solid rgba(255, 255, 255, 0.3); 
+    padding: 0; 
 }
 
-/* Container styling for the content box */
+
 .container {
-    padding: 20px; /* Inner spacing */
-    background-color: rgba(0, 0, 0, 0.9); /* Semi-transparent black color with 90% opacity */
-    border-radius: 8px; /* Rounded corners */
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); /* Optional: shadow for depth */
+    padding: 20px; 
+    background-color: rgba(0, 0, 0, 0.9); 
+    border-radius: 8px; 
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2); 
 }
 
-/* Ensure h1 and other headings have white color */
+
 h1 {
     color: white;
     text-align: center;
 }
 
-/* Optional: Styling for links */
+
 a {
     color: white;
     text-decoration: none;

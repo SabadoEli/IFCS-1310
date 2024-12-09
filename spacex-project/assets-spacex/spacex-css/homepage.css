@@ -1,0 +1,128 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #d3d3d3; /* Light gray background behind the stripes */
+    color: #fff;
+    background-size: 10px 10px;
+    background-image: repeating-linear-gradient(45deg, #fff 0, #fff 1px, #d3d3d3 0, #d3d3d3 50%);
+}
+
+header {
+    text-align: center;
+    margin-top: 50px;
+}
+
+header h1 {
+    font-size: 18em; /* Three times larger than 6em */
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+header p {
+    font-size: 1.5em;
+    color: #ddd;
+}
+
+nav.primary {
+    background-color: #333;
+    text-align: center;
+    padding: 10px 0;
+    margin-top: 10px;
+}
+
+nav.primary ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: inline-flex;
+}
+
+nav.primary ul li {
+    margin: 0 20px;
+}
+
+nav.primary ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+}
+
+nav.primary ul li a:hover {
+    color: #444cf7;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+main {
+    width: 80%;
+    margin: 40px auto;
+    text-align: center;
+}
+
+#header-box {
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(0, 0, 0, 0.9); /* 90% opacity black background */
+    color: white;
+    padding: 30px;
+    margin: 20px auto;
+    border: 5px solid #444;
+    border-radius: 10px;
+}
+
+#content-box {
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(0, 0, 0, 0.8); /* Slightly less opacity */
+    color: white;
+    padding: 30px;
+    margin: 20px auto;
+    border: 5px solid #444;
+    border-radius: 10px;
+}
+
+#overview, #configurations {
+    margin-bottom: 40px;
+}
+
+#overview h2, #configurations h2, #configurations h3 {
+    font-size: 2.5em;
+    margin-bottom: 20px;
+    text-decoration: underline;
+}
+
+#configurations h3 {
+    font-size: 2em;
+    margin-top: 30px;
+}
+
+ul {
+    text-align: left;
+    margin-top: 10px;
+}
+
+ul li {
+    margin-bottom: 10px;
+}
+
+ul li strong {
+    color: #444cf7;
+}
+
+footer {
+    text-align: center;
+    padding: 20px 0;
+    background-color: #333;
+    color: white;
+}
+
+footer a {
+    color: #444cf7;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #fff;
+}
