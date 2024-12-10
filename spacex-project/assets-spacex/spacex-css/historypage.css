@@ -1,26 +1,39 @@
 body {
     margin: 0;
     font-family: Arial, sans-serif;
-    background-color: #e5e5f7;
-    opacity: 0.8;
+    background-color: #d3d3d3; 
+    color: #fff;
     background-size: 10px 10px;
-    background-image: repeating-linear-gradient(45deg, #444cf7 0, #444cf7 1px, #e5e5f7 0, #e5e5f7 50%);
-    color: #333;
+    background-image: repeating-linear-gradient(45deg, #fff 0, #fff 1px, #d3d3d3 0, #d3d3d3 50%);
 }
 
-/* Header styling */
 header {
     text-align: center;
     margin-top: 50px;
 }
 
+#header-box {
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    padding: 30px;
+    margin: 20px auto;
+    border: 5px solid #444;
+    border-radius: 10px;
+}
+
 header h1 {
-    font-size: 4em;
-    color: #333;
+    font-size: 6em;
+    color: #fff;
     margin-bottom: 10px;
 }
 
-/* Navigation styling */
+header p {
+    font-size: 1.5em;
+    color: #ddd;
+}
+
 nav.primary {
     background-color: #333;
     text-align: center;
@@ -53,29 +66,26 @@ nav.primary ul li a:hover {
     border-radius: 5px;
 }
 
-/* Main content styling */
 main {
     width: 80%;
     margin: 40px auto;
     text-align: center;
 }
 
-.container {
-    width: 50%;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 20px;
-    margin: 20px auto;
-    color: #fff;
-    border-radius: 8px;
-}
 
-/* Section styling */
 #history, #recent-missions {
-    margin-bottom: 40px;
+    width: 80%;
+    max-width: 1200px;
+    background-color: rgba(0, 0, 0, 0.8); 
+    color: white;
+    padding: 30px;
+    margin: 20px auto;
+    border: 5px solid #444; 
+    border-radius: 10px; 
 }
 
 #history h2, #recent-missions h2 {
-    font-size: 2em;
+    font-size: 2.5em;
     margin-bottom: 20px;
     text-decoration: underline;
 }
@@ -104,7 +114,6 @@ table tr:nth-child(even) {
     background-color: #f9f9f9;
 }
 
-/* Footer styling */
 footer {
     text-align: center;
     padding: 20px 0;

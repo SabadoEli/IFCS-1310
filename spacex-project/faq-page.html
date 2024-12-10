@@ -8,108 +8,117 @@
     <meta name="keywords" content="SpaceX, Dragon, spacecraft, FAQ, technology, missions, space exploration">
     <meta name="author" content="SpaceX Team">
     <title>SpaceX Dragon - FAQ</title>
-    <link rel="stylesheet" href="styles.css"> <!-- Assuming a shared CSS file across pages -->
+    <link rel="stylesheet" href="assets-spacex/spacex-css/faqpage.css">
 </head>
 <body>
     <header>
-        <h1>SpaceX Dragon</h1>
-        <p>First Private Spacecraft to the Space Station</p>
-        <nav>
+        <div id="header-box">
+            <h1>SpaceX Dragon</h1>
+            <p>First Private Spacecraft to the Space Station</p>
+        </div>
+        <nav role="navigation" class="primary">
             <ul>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="history.html">History</a></li>
-                <li><a href="faqs.html">FAQ</a></li>
-                <!-- Add other page links here if necessary -->
+                <li><a href="SpaceX-homepage.html">Home Page</a></li>
+                <li><a href="history-page.html">History</a></li>
+                <li><a href="faq-page.html">FAQ</a></li>
+                <li><a href="https://www.spacex.com/">SpaceX Home</a></li>
             </ul>
         </nav>
     </header>
 
     <main>
-        <section id="faq">
-            <h2>Frequently Asked Questions</h2>
+        <div id="content-box">
+            <section id="faq">
+                <h2>Frequently Asked Questions</h2>
 
-            <!-- Question 1 -->
-            <div class="question">
-                <h3>Could SpaceX send a Dragon to the Moon?</h3>
-                <p>The Dragon could easily be sent to lunar orbit, but it cannot land on the moon. The Falcon Heavy can throw about 16,000 kg on a trans-lunar orbit, allowing Dragon 2 to reach the moon. However, landing on the moon requires a substantial change in velocity (∆V), which Dragon 2's propellant cannot achieve. It would need additional technology development, possibly involving multiple Falcon Heavy launches.</p>
-            </div>
+                <!-- Question 1 -->
+                <div class="question">
+                    <h3>Could SpaceX send a Dragon to the Moon?</h3>
+                    <p>The Dragon could easily be sent to lunar orbit, but it cannot land on the moon. The Falcon Heavy can throw about 16,000 kg on a trans-lunar orbit, allowing Dragon 2 to reach the moon. However, landing on the moon requires a substantial change in velocity (∆V), which Dragon 2's propellant cannot achieve. It would need additional technology development, possibly involving multiple Falcon Heavy launches.</p>
+                    <img src="https://cdn.mos.cms.futurecdn.net/AnAZgw75WaGCAPSZyFvvR3.jpeg" 
+                    alt="SpaceX Image" 
+                    style="width: 100%; max-width: 1200px; height: auto; border-radius: 10px;">
+   
+                </div>
 
-            <!-- Question 2 -->
-            <div class="question">
-                <h3>What is Red Dragon?</h3>
-                <p>Red Dragon is a proposed NASA/SETI Institute mission to send a modified Dragon capsule to Mars atop a Falcon Heavy. It would be an unmanned scientific lander, capable of carrying substantial cargo to the Martian surface. However, the project lacks official funding or announcements from SpaceX, and its future remains uncertain.</p>
-            </div>
+                <!-- Question 2 -->
+                <div class="question">
+                    <h3>What is Red Dragon?</h3>
+                    <p>Red Dragon is a proposed NASA/SETI Institute mission to send a modified Dragon capsule to Mars atop a Falcon Heavy. It would be an unmanned scientific lander, capable of carrying substantial cargo to the Martian surface. However, the project lacks official funding or announcements from SpaceX, and its future remains uncertain.</p>
+                </div>
 
-            <!-- Question 3 -->
-            <div class="question">
-                <h3>Will the Dragon be used for a manned mission to Mars?</h3>
-                <p>No. While Dragon was designed to carry humans, its current configuration is too small, and significant upgrades to life support and other systems would be necessary for a Mars mission. Elon Musk has mentioned that Dragon 2 can support seven astronauts for "several days," making it unsuitable for long-term interplanetary travel.</p>
-            </div>
+                <!-- Question 3 -->
+                <div class="question">
+                    <h3>Will the Dragon be used for a manned mission to Mars?</h3>
+                    <p>No. While Dragon was designed to carry humans, its current configuration is too small, and significant upgrades to life support and other systems would be necessary for a Mars mission. Elon Musk has mentioned that Dragon 2 can support seven astronauts for "several days," making it unsuitable for long-term interplanetary travel.</p>
+                </div>
 
-            <!-- Question 4 -->
-            <div class="question">
-                <h3>Why does the Dragon "berth" to the ISS instead of dock?</h3>
-                <p>Dragon uses a Common Berthing Mechanism (CBM), requiring astronauts to use the Canadarm to maneuver and attach Dragon to the ISS. This process is slower compared to autonomous docking, but the CBM allows for a wider port, making it suitable for Dragon's design. Docking, by contrast, is faster but requires a smaller docking port.</p>
-            </div>
+                <!-- Question 4 -->
+                <div class="question">
+                    <h3>Why does the Dragon "berth" to the ISS instead of dock?</h3>
+                    <p>Dragon uses a Common Berthing Mechanism (CBM), requiring astronauts to use the Canadarm to maneuver and attach Dragon to the ISS. This process is slower compared to autonomous docking, but the CBM allows for a wider port, making it suitable for Dragon's design. Docking, by contrast, is faster but requires a smaller docking port.</p>
+                </div>
 
-            <!-- Question 5 -->
-            <div class="question">
-                <h3>Can Dragon 1 be used to evacuate the International Space Station?</h3>
-                <p>No. Dragon 1 is not designed for rapid evacuation. It cannot dock autonomously, and the berthing process is slow. Additionally, Dragon 1 does not have the necessary escape systems or seating to function as a lifeboat. The Soyuz spacecraft are better suited for emergency evacuations from the ISS.</p>
-            </div>
+                <!-- Question 5 -->
+                <div class="question">
+                    <h3>Can Dragon 1 be used to evacuate the International Space Station?</h3>
+                    <p>No. Dragon 1 is not designed for rapid evacuation. It cannot dock autonomously, and the berthing process is slow. Additionally, Dragon 1 does not have the necessary escape systems or seating to function as a lifeboat. The Soyuz spacecraft are better suited for emergency evacuations from the ISS.</p>
+                </div>
 
-            <!-- Question 6 -->
-            <div class="question">
-                <h3>Can Dragon or Dragon 2 reboost the International Space Station?</h3>
-                <p>It is unlikely. Dragon lacks sufficient fuel for reboosting the ISS, and its SuperDraco engines are too powerful and would risk damaging the station. Reboosting is typically done with other systems designed for that purpose, making Dragon unsuitable for such tasks.</p>
-            </div>
+                <!-- Question 6 -->
+                <div class="question">
+                    <h3>Can Dragon or Dragon 2 reboost the International Space Station?</h3>
+                    <p>It is unlikely. Dragon lacks sufficient fuel for reboosting the ISS, and its SuperDraco engines are too powerful and would risk damaging the station. Reboosting is typically done with other systems designed for that purpose, making Dragon unsuitable for such tasks.</p>
+                </div>
 
-            <!-- Question 7 -->
-            <div class="question">
-                <h3>How much Delta V does the Dragon 2 have?</h3>
-                <p>Dragon 2 has a total delta-v of around 420 m/s, derived from its SuperDraco thrusters. This is based on the capsule's propellant capacity (3,500 lbs) and the engines' specific impulse of 235 seconds.</p>
-            </div>
+                <!-- Question 7 -->
+                <div class="question">
+                    <h3>How much Delta V does the Dragon 2 have?</h3>
+                    <p>Dragon 2 has a total delta-v of around 420 m/s, derived from its SuperDraco thrusters. This is based on the capsule's propellant capacity (3,500 lbs) and the engines' specific impulse of 235 seconds.</p>
+                </div>
 
-            <!-- Question 8 -->
-            <div class="question">
-                <h3>What would happen if one of Dragon 2's SuperDraco thrusters failed during landing?</h3>
-                <p>Dragon 2 can safely land even if two of its SuperDraco thrusters fail. The capsule's design includes redundancies, and in the event of a failure, parachutes would be deployed to ensure a safe splashdown. The vehicle is thoroughly tested to handle such emergencies.</p>
-            </div>
+                <!-- Question 8 -->
+                <div class="question">
+                    <h3>What would happen if one of Dragon 2's SuperDraco thrusters failed during landing?</h3>
+                    <p>Dragon 2 can safely land even if two of its SuperDraco thrusters fail. The capsule's design includes redundancies, and in the event of a failure, parachutes would be deployed to ensure a safe splashdown. The vehicle is thoroughly tested to handle such emergencies.</p>
+                </div>
 
-            <!-- Question 9 -->
-            <div class="question">
-                <h3>Will SuperDraco replace Draco?</h3>
-                <p>No, the SuperDraco and Draco engines serve different functions. Draco engines are used for in-orbit maneuvers and small adjustments, while SuperDracos provide high-thrust propulsion for landing and abort scenarios. SuperDraco engines are significantly more powerful than Draco engines.</p>
-            </div>
+                <!-- Question 9 -->
+                <div class="question">
+                    <h3>Will SuperDraco replace Draco?</h3>
+                    <p>No, the SuperDraco and Draco engines serve different functions. Draco engines are used for in-orbit maneuvers and small adjustments, while SuperDracos provide high-thrust propulsion for landing and abort scenarios. SuperDraco engines are significantly more powerful than Draco engines.</p>
+                </div>
 
-            <!-- Question 10 -->
-            <div class="question">
-                <h3>What is PICA-X? Does PICA-X ablate?</h3>
-                <p>PICA-X is a heatshield material developed by SpaceX. It is a modification of the original PICA material used by NASA. PICA-X is more reusable and ablates less during reentry, making it more suitable for multiple uses. It has been used in Dragon CRS missions and is designed to withstand extreme reentry speeds.</p>
-            </div>
+                <!-- Question 10 -->
+                <div class="question">
+                    <h3>What is PICA-X? Does PICA-X ablate?</h3>
+                    <p>PICA-X is a heatshield material developed by SpaceX. It is a modification of the original PICA material used by NASA. PICA-X is more reusable and ablates less during reentry, making it more suitable for multiple uses. It has been used in Dragon CRS missions and is designed to withstand extreme reentry speeds.</p>
+                </div>
 
-            <!-- Question 11 -->
-            <div class="question">
-                <h3>Could Dragon 2 service the Hubble Space Telescope?</h3>
-                <p>Although technically possible, it would be more cost-effective to launch a new telescope rather than modify Dragon 2 for servicing the Hubble. The required changes would outweigh the benefits, especially since Hubble’s technology is now outdated compared to modern telescopes.</p>
-            </div>
+                <!-- Question 11 -->
+                <div class="question">
+                    <h3>Could Dragon 2 service the Hubble Space Telescope?</h3>
+                    <p>Although technically possible, it would be more cost-effective to launch a new telescope rather than modify Dragon 2 for servicing the Hubble. The required changes would outweigh the benefits, especially since Hubble’s technology is now outdated compared to modern telescopes.</p>
+                </div>
 
-            <!-- Question 12 -->
-            <div class="question">
-                <h3>Why does Dragon's trunk stay attached during an abort scenario?</h3>
-                <p>The trunk helps stabilize the capsule during an abort. Without it, the capsule could flip over due to aerodynamic forces. The trunk's design keeps the capsule in the correct orientation to avoid instability.</p>
-            </div>
+                <!-- Question 12 -->
+                <div class="question">
+                    <h3>Why does Dragon's trunk stay attached during an abort scenario?</h3>
+                    <p>The trunk helps stabilize the capsule during an abort. Without it, the capsule could flip over due to aerodynamic forces. The trunk's design keeps the capsule in the correct orientation to avoid instability.</p>
+                </div>
 
-            <!-- Question 13 -->
-            <div class="question">
-                <h3>How does a Dragon reenter the atmosphere and splashdown?</h3>
-                <p>Dragon’s reentry is a three-phase process: deorbit burn, reentry, and landing. First, Dragon fires its Draco thrusters to begin the deorbit. Next, it jettisons its trunk and reenters the atmosphere using its heat shield. Finally, it deploys parachutes for a safe splashdown in the ocean.</p>
-            </div>
+                <!-- Question 13 -->
+                <div class="question">
+                    <h3>How does a Dragon reenter the atmosphere and splashdown?</h3>
+                    <p>Dragon’s reentry is a three-phase process: deorbit burn, reentry, and landing. First, Dragon fires its Draco thrusters to begin the deorbit. Next, it jettisons its trunk and reenters the atmosphere using its heat shield. Finally, it deploys parachutes for a safe splashdown in the ocean.</p>
+                </div>
 
-        </section>
+            </section>
+        </div>
     </main>
 
     <footer>
+        <p>&copy; SpaceX 2024</p>
         <p>Contact Us: <a href="mailto:info@spacex.com">info@spacex.com</a></p>
     </footer>
 </body>
